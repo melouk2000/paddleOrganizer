@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppCompat.SplashScreen" parent="Base.Theme.PaddleOrganizer">
+        <item name="android:windowSplashScreenBackground">#2196F3</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/_3408630</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.PaddleOrganizer</item>
+    </style>
+</resources>

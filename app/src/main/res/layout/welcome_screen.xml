@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/welcome_Screen_cl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".com.example.android.navigation.welcomeScreenFragment">
+
+    <Button
+        android:id="@+id/btn_teamShuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:text="@string/team_shuffle"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tournament"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_paddle_logo"  />
+
+    <Button
+        android:id="@+id/btn_tournament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/tournament"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_teamShuffle" />
+
+    <ImageView
+        android:id="@+id/iv_paddle_logo"
+        android:layout_width="295dp"
+        android:layout_height="302dp"
+        android:src="@drawable/_3408630"
+        app:layout_constraintBottom_toTopOf="@+id/btn_teamShuffle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
